@@ -3,7 +3,7 @@ import { JsonRpcProvider, Contract, Wallet } from "ethers";
 
 const RPC_URL = "http://127.0.0.1:8545"; // Anvil RPC URL
 const PRIVATE_KEY = "ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"; // Replace with your private key from Anvil
-const CONTRACT_ADDRESS = "0x0165878A594ca255338adfa4d48449f69242Eb8F"; // Deployed contract address
+const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3"; // Deployed contract address
 
 const contractABI = [
   {
