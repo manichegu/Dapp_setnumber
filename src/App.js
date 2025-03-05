@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { JsonRpcProvider, Contract, Wallet } from "ethers";
 
-const RPC_URL = "http://127.0.0.1:8545"; // Anvil RPC URL
-const PRIVATE_KEY = "ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"; // Replace with your private key from Anvil
-const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3"; // Deployed contract address
+const RPC_URL = "https://eth-sepolia.g.alchemy.com/v2/TulsDSme8scVD1cxLptaX7kWmS4IqEE7"; // Anvil RPC URL
+const PRIVATE_KEY = "054348cfcc07a224d5c20479e173269d965cdbe0f08874d001399cf652b2a4d5"; // Replace with your private key from Anvil
+const CONTRACT_ADDRESS = "0x58353A720386F97d8f1d95B4836667e835A64ae1"; // Deployed contract address
 
 const contractABI = [
   {
